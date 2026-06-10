@@ -1,1 +1,68 @@
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+/* Header Banner */
+.header-banner {
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Card custom cho Form */
+.card-custom {
+  border: 2px solid #0d6efd;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+.card-form-title {
+  color: #0d6efd;
+  font-weight: 700;
+}
+
+/* Buttons Filter */
+.btn-filter {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  color: #495057;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+.btn-filter:hover {
+  background-color: #f8f9fa;
+  border-color: #ced4da;
+}
+.btn-filter.active {
+  background-color: #0d6efd;
+  color: #ffffff;
+  border-color: #0d6efd;
+}
+
+/* Record Items Custom */
+.record-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border-left: 6px solid #6c757d; /* Mặc định màu xám */
+  transition: transform 0.2s;
+}
+.record-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Border theo trạng thái */
+.border-success-custom { border-left-color: #198754 !important; }
+.border-warning-custom { border-left-color: #fd7e14 !important; }
+.border-secondary-custom { border-left-color: #6c757d !important; }
+
+/* Badge trạng thái phía bên phải */
+.status-badge {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+.status-success { background-color: #e8f5e9; color: #198754; }
+.status-warning { background-color: #fff3cd; color: #fd7e14; }
+.status-secondary { background-color: #e2e3e5; color: #6c757d; }
